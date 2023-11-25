@@ -1,847 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DevFolio - Developer Portfolio Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-  <title>Vonge</title>
-  <meta name='description' content='This is the Engineering Portfolio of Andrea Miramontes Serrano.'>
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="canonical" href="http://localhost:6060/">
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Vonge">
-  <meta name="twitter:description" content="This is the Engineering Portfolio of Andrea Miramontes Serrano.">
-  <meta name="twitter:image:src" content="http://localhost:6060/images/Andrea_Miramontes_Serrano.jpg">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-  <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Vonge">
-  <meta property="og:description" content="This is the Engineering Portfolio of Andrea Miramontes Serrano.">
-  <meta property="og:image" content="http://localhost:6060/images/Andrea_Miramontes_Serrano.jpg">
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">DevFolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-
-  <!-- Ionicons -->
-  <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon32.ico?" />
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2" />
-
-  <link rel="stylesheet" href="/assets/main.css">
-
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script> 
-</head>
-
-<body>
-
-    
-
-    <!-- begin header -->
-<header class="c-header">
-  <div class="container">
-    <div class="row">
-      <div class="c-header__inner">
-
-        <div class="logo">
-          <a class="logo__link" href="/">
-          
-            <img class="logo__image" src="/images/A_.png" alt="Vonge">
-          
-          </a>
-        </div>
-
-        <nav class="main-nav">
-          <div class="main-nav__box">
-
-            <div class="nav__icon-close">
-              <i class="ion ion-md-close"></i>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">Service</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#price" class="nav-item nav-link">Price</a>
+                        <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="nav__title">Menu</div>
-
-              <ul class="nav__list list-reset">
-
-              
-                
-                <li class="nav__item">
-                  <a href="/" class="nav__link active-link">Home</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
-                  <a href="/projects/" class="nav__link">Projects</a>
-                </li>
-                
-              
-                
-                <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Blog</a>
-                </li>
-                
-              
-                
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    
-                      <a href="/about/" class="nav__link">About</a>
-                    
-                      <a href="/elements/" class="nav__link">Elements</a>
-                    
-                  </div>
-                </li>
-
-                
-              
-
-            </ul>
-          </div>
-
-          <!--bookshop-live name(social-link.jekyll.html) params() context() -->
-          
-<div class="social">
-  <ul class="social__list list-reset">
-    
-    <li class="social__item">
-      <a class="social__link" href="https://linkedin.com/in/andreamiramontesserrano" target="_blank" rel="noopener" aria-label="linkedin icon"><i class="ion ion-logo-linkedin"></i></a>
-    </li>
-    
-  </ul>
-</div>
-
-          <!--bookshop-live end-->
-        </nav>
-
-        <div class="nav-button">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
         </div>
-
-      </div>
-    </div>
-  </div>
-</header>
-<!-- end header -->
-
-    
-
-    <!-- 
-        Bookshop components are accessed using the bookshop tag, 
-        using the same syntax as the standard Jekyll include tag.
-    -->
-    <!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
-          
-<div class="c-page">
+        <!-- Nav Bar End -->
 
 
-    <!--bookshop-live name(hero/hero.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
-          <!-- begin hero -->
-
-<section class="c-hero animate">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        <div class="c-hero__inner">
-
-          <div class="c-hero__left">
-            <h1 class="c-hero__title">Hi there, I am Andrea Miramontes Serrano</h1>
-            <div class="c-hero__description"><p><strong>Hardware Systems Engineer</strong> in the 4th year Electrical & Computer Engineering B.S. at Cornell University. I am passionate about the engineering cycle from architecture 
-as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork.</p></div>
-            <div class="c-hero__btn">
-              <a href="#contact" class="cta-button c-button c-button--primary c-button--small">Get in touch</a>
-              <a class="works-button c-button c-button--secondary c-button--small" href="#projects">
-                <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> See my works
-              </a>
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Kate Winslet</h1>
+                                <h2></h2>
+                                <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="">Hire Me</a>
+                                <a class="btn" href="">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/hero.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
+        <!-- Hero End -->
 
-          <div class="c-hero__right">
-            <div class="c-hero__image">
-              <img loading="lazy" src="/images/Andrea_Miramontes_Serrano.jpg" alt="">
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>10 Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Web Design</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Web Development</p><p>95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Apps Design</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Apps Development</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end hero -->
-          <!--bookshop-live end-->
-
-    <!--bookshop-live name(projects-section/projects-section.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
-          <!-- begin projects -->
-<section class="section projects" id="projects">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        <div class="contaniner__inner animate">
-
-          <div class="section__info">
-            <div class="section__head">
-              <h2 class="section__title">Latest Works</h2>
-              <a class="section__link" href="/projects">View all <i class="ion ion-md-arrow-forward"></i></a>
+        <!-- About End -->
+        
+        
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I do</p>
+                    <h2>Awesome Quality Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Development</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="section__description"><p>I show only my best works built completely with passion, simplicity, and creativity!</p></div>
-          </div>
-
-          
-          <div class="row">
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[0]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/antelope-anyon" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-8.jpg" alt="Antelope Canyon">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">Antelope Canyon</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[1]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/quiet-lake" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-7.jpg" alt="Quiet Lake">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">Quiet Lake</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[2]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/the-rocks" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-6.jpg" alt="The rocks">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">The rocks</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[3]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/big-airplane" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-5.jpg" alt="Big airplane">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">Big airplane</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[4]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/mountains" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-4.jpg" alt="Mountains">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">Mountains</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-                <!--bookshop-live name(project-card/project-card.jekyll.html) params(project=project) context(project=site.projects[5]) -->
-          
-<article class="c-project-card col col-4 col-d-6 col-t-12">
-  <div class="c-project-card__content">
-    <a href="/project/sea-and-rest" class="c-project-card__image">
-      <img loading="lazy" src="/images/project-3.jpg" alt="Sea and rest">
-    </a>
-    <div class="c-project-card__info">
-      <div class="c-project-card__info-wrap">
-        <h3 class="c-project-card__title">Sea and rest</h3>
-      </div>
-      <div class="c-project-card__info-wrap">
-        
-        <div class="c-project-card__subtitle">Photography</div>
-        
-      </div>
-    </div>
-  </div>
-</article>
-          <!--bookshop-live end-->
-              
-            
-              
-            
-              
-            
-              
-            
-          </div>
-          
-
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end projects -->
-          <!--bookshop-live end-->
-
-    <!--bookshop-live name(testimonials-section/testimonials-section.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
-          <!-- begin testimonials -->
-<section class="section testimonials animate">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">Happy Clients</h2>
-            <ul class="controls list-reset" id="customize-controls" aria-label="Slider Navigation" tabindex="0">
-              <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
-                <i class="ion ion-ios-arrow-back"></i>
-              </li>
-              <li class="next" data-controls="next" aria-controls="customize" tabindex="-1">
-                <i class="ion ion-ios-arrow-forward"></i>
-              </li>
-            </ul>
-          </div>
-          <div class="section__description"></div>
-        </div>
-
-        
-        <div class="testimonials__slider my-slider">
-          
-            <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[0]) -->
-          
-<div class="c-testimonial-card">
-  <div class="c-testimonial-card__content">
-    <div class="c-testimonial-card__client-meta">
-      
-        <div class="c-testimonial-card__image-container">
-          <img class="c-testimonial-card__client-avatar" src="images/client-1.jpg" alt="Justin Baptista">
-        </div>
-      
-      <div class="c-testimonial-card__client-info">
-        
-          <h3 class="c-testimonial-card__client-name">Justin Baptista</h3>
+        <!-- Service End -->
         
         
-          <p class="c-testimonial-card__client-position">Copywriter</p>
-        
-      </div>
-    </div>
-    
-      <p class="c-testimonial-card__client-text">Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper.</p>
-    
-  </div>
-</div>
-          <!--bookshop-live end-->
-          
-            <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[1]) -->
-          
-<div class="c-testimonial-card">
-  <div class="c-testimonial-card__content">
-    <div class="c-testimonial-card__client-meta">
-      
-        <div class="c-testimonial-card__image-container">
-          <img class="c-testimonial-card__client-avatar" src="images/client-2.jpg" alt="Kadin Herwitz">
-        </div>
-      
-      <div class="c-testimonial-card__client-info">
-        
-          <h3 class="c-testimonial-card__client-name">Kadin Herwitz</h3>
-        
-        
-          <p class="c-testimonial-card__client-position">Traveler</p>
-        
-      </div>
-    </div>
-    
-      <p class="c-testimonial-card__client-text">Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper.</p>
-    
-  </div>
-</div>
-          <!--bookshop-live end-->
-          
-            <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[2]) -->
-          
-<div class="c-testimonial-card">
-  <div class="c-testimonial-card__content">
-    <div class="c-testimonial-card__client-meta">
-      
-        <div class="c-testimonial-card__image-container">
-          <img class="c-testimonial-card__client-avatar" src="images/client-4.jpg" alt="Paul Wade">
-        </div>
-      
-      <div class="c-testimonial-card__client-info">
-        
-          <h3 class="c-testimonial-card__client-name">Paul Wade</h3>
-        
-        
-          <p class="c-testimonial-card__client-position">Marketing</p>
-        
-      </div>
-    </div>
-    
-      <p class="c-testimonial-card__client-text">Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper.</p>
-    
-  </div>
-</div>
-          <!--bookshop-live end-->
-          
-            <!--bookshop-live name(testimonial-card/testimonial-card.jekyll.html) params(testimonial-item=testimonial-item) context(testimonial=item=site.testimonials[3]) -->
-          
-<div class="c-testimonial-card">
-  <div class="c-testimonial-card__content">
-    <div class="c-testimonial-card__client-meta">
-      
-        <div class="c-testimonial-card__image-container">
-          <img class="c-testimonial-card__client-avatar" src="images/client-3.jpg" alt="Tatiana Curtis">
-        </div>
-      
-      <div class="c-testimonial-card__client-info">
-        
-          <h3 class="c-testimonial-card__client-name">Tatiana Curtis</h3>
-        
-        
-          <p class="c-testimonial-card__client-position">Art Director</p>
-        
-      </div>
-    </div>
-    
-      <p class="c-testimonial-card__client-text">Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper.</p>
-    
-  </div>
-</div>
-          <!--bookshop-live end-->
-          
-        </div>
-        
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end testimonials -->
-          <!--bookshop-live end-->
-
-    <!--bookshop-live name(blog-section/blog-section.jekyll.html) params(bind=block) context(block=content_blocks[3]) -->
-          <!-- begin blog -->
-<section class="section blog">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        <div class="contaniner__inner animate">
-
-          <div class="section__info">
-            <div class="section__head">
-              <h2 class="section__title">Recent Posts</h2>
-              <a class="section__link" href="/blog">View all <i class="ion ion-md-arrow-forward"></i></a>
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2045 - 2050</div>
+                            <h2>Web Developer</h2>
+                            <h4>Soft Agency, San Francisco, CA</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="section__description"><p>Vonge blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!</p> </div>
-          </div>
-
-          
-          <div class="row">
-            
-              
-                <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[0]) -->
-          
-<div class="c-blog-card col col-4 col-d-6 col-t-12">
-  <div class="c-blog-card__inner">
-
-    
-    <div class="c-blog-card__image-wrap">
-      <a class="c-blog-card__image" href="/blog/that-which-does-not-kill-us-makes-us-stronger">
-        <img loading="lazy" src="/images/post-1.jpg" alt="That which does not kill us makes us stronger">
-      </a>
-    </div>
-    
-
-    <div class="c-blog-card__content">
-
-      
-      <div class="c-blog-card__tags-box">
-        
-        <a href="/tag/travel" class="c-blog-card__tag">travel</a>
-        
-        <a href="/tag/lifestyle" class="c-blog-card__tag">lifestyle</a>
-        
-      </div>
-      
-
-      <h2 class="c-blog-card__title">
-        <a href="/blog/that-which-does-not-kill-us-makes-us-stronger">That which does not kill us makes us stronger</a>
-      </h2>
-
-      <p class="c-blog-card__excerpt">
-        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
-      </p>
-
-      <div class="c-blog-card__meta">
-        <div class="c-blog-card__author-image">
-          <img loading="lazy" src="/images/Andrea_Miramontes_Serrano.jpg" alt="Andrea Miramontes Serrano">
         </div>
-        <div class="c-blog-card__info">
-          <div class="c-blog-card__author-name">Andrea Miramontes Serrano</div>
-          <span class="c-blog-card__date"><time datetime="2018-11-13T07:01:35-05:00">13 Nov 2018</time></span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-          <!--bookshop-live end-->
-              
-                <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[1]) -->
-          
-<div class="c-blog-card col col-4 col-d-6 col-t-12">
-  <div class="c-blog-card__inner">
-
-    
-    <div class="c-blog-card__image-wrap">
-      <a class="c-blog-card__image" href="/blog/do-what-you-can-with-what-you-have-where-you-are">
-        <img loading="lazy" src="/images/post-2.jpg" alt="Do what you can, with what you have, where you are">
-      </a>
-    </div>
-    
-
-    <div class="c-blog-card__content">
-
-      
-      <div class="c-blog-card__tags-box">
+        <!-- Job Experience End -->
         
-        <a href="/tag/life" class="c-blog-card__tag">life</a>
         
-        <a href="/tag/story" class="c-blog-card__tag">story</a>
-        
-      </div>
-      
-
-      <h2 class="c-blog-card__title">
-        <a href="/blog/do-what-you-can-with-what-you-have-where-you-are">Do what you can, with what you have, where you are</a>
-      </h2>
-
-      <p class="c-blog-card__excerpt">
-        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
-      </p>
-
-      <div class="c-blog-card__meta">
-        <div class="c-blog-card__author-image">
-          <img loading="lazy" src="/images/Andrea_Miramontes_Serrano.jpg" alt="Andrea Miramontes Serrano">
-        </div>
-        <div class="c-blog-card__info">
-          <div class="c-blog-card__author-name">Andrea Miramontes Serrano</div>
-          <span class="c-blog-card__date"><time datetime="2018-11-12T07:01:35-05:00">12 Nov 2018</time></span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-          <!--bookshop-live end-->
-              
-                <!--bookshop-live name(blog-card/blog-card.jekyll.html) params(post=post) context(post=site.posts[2]) -->
-          
-<div class="c-blog-card col col-4 col-d-6 col-t-12">
-  <div class="c-blog-card__inner">
-
-    
-    <div class="c-blog-card__image-wrap">
-      <a class="c-blog-card__image" href="/blog/strive-not-to-be-a-success-but-rather-to-be-of-value">
-        <img loading="lazy" src="/images/post-3.jpg" alt="Strive not to be a success, but rather to be of value">
-      </a>
-    </div>
-    
-
-    <div class="c-blog-card__content">
-
-      
-      <div class="c-blog-card__tags-box">
-        
-        <a href="/tag/life" class="c-blog-card__tag">life</a>
-        
-        <a href="/tag/notes" class="c-blog-card__tag">notes</a>
-        
-      </div>
-      
-
-      <h2 class="c-blog-card__title">
-        <a href="/blog/strive-not-to-be-a-success-but-rather-to-be-of-value">Strive not to be a success, but rather to be of value</a>
-      </h2>
-
-      <p class="c-blog-card__excerpt">
-        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
-      </p>
-
-      <div class="c-blog-card__meta">
-        <div class="c-blog-card__author-image">
-          <img loading="lazy" src="/images/Andrea_Miramontes_Serrano.jpg" alt="Andrea Miramontes Serrano">
-        </div>
-        <div class="c-blog-card__info">
-          <div class="c-blog-card__author-name">Andrea Miramontes Serrano</div>
-          <span class="c-blog-card__date"><time datetime="2018-11-11T07:01:35-05:00">11 Nov 2018</time></span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-          <!--bookshop-live end-->
-              
-            
-          </div>
-          
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end blog -->
-          <!--bookshop-live end-->
-
-    <!--bookshop-live name(newsletter/newsletter.jekyll.html) params(bind=block) context(block=content_blocks[4]) -->
-          <!-- begin subscribe -->
-
-<section class="c-subscribe section">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-
-        <div class="c-subscribe__inner">
-          <div class="c-subscribe__info">
-            <h3 class="c-subscribe__title">Join my mailing list</h3>
-            <div class="c-subscribe__subtitle">
-              <span id="ityped"></span>
+        <!-- Banner Start -->
+        <div class="banner wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Reasonable Price</p>
+                    <h2>Get A <span>Special</span> Price</h2>
+                </div>
+                <div class="container banner-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                    </p>
+                    <a class="btn">Pricing Plan</a>
+                </div>
             </div>
-          </div>
-
-          <form class="c-subscribe__form validate" action="//frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-            <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-            <input class="c-subscribe__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
-            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
-          </form>
-
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end subscribe -->
+        <!-- Banner End -->
 
-<script>
-  var itype_text = ['Get inspiration, updates and, cool stuff!'];
-</script>
-          <!--bookshop-live end-->
 
-    <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[5]) -->
-          <!-- begin contact -->
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Portfolio</p>
+                    <h2>My Excellent Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-1">Web Design</li>
+                            <li data-filter=".filter-2">Mobile Apps</li>
+                            <li data-filter=".filter-3">Game Dev</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-1.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>eCommerce Website</h3>
+                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Product Landing Page</h3>
+                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-3.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript quiz game</h3>
+                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-4.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript drawing</h3>
+                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-5.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Social Mobile Apps</h3>
+                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-6.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Company Website</h3>
+                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+        
+        
+        <!-- Banner Start -->
+        <div class="banner wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Awesome Discount</p>
+                    <h2>Get <span>30%</span> Discount</h2>
+                </div>
+                <div class="container banner-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                    </p>
+                    <a class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+        
+        
+        <!-- Price Start -->
+        <div class="price" id="price">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Pricing Plan</p>
+                    <h2>Affordable Price</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="price-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Basic</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>49<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="price-item featured-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Standard</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>99<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="price-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Premium</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>149<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Price End -->
+        
+        
+        <!-- Testimonial Start -->
+        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+            <div class="container">
+                <div class="testimonial-icon">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-1.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-3.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
 
-<div class="c-contact-form" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
 
-        <div class="c-contact-form__form-box">
-          <div class="c-contact-form__contact-head">
-            <h2 class="c-contact-form__contact-title">Get in touch</h2>
-            <p class="c-contact-form__contact-description">Vonge comes with a built-in contact form.</p>
-          </div>
-          <form class="c-contact-form__form"
-            action=""
-            method="POST">
-            <input type="hidden" name="_to" value="site@example.com">
-            <div class="c-contact-form__form-group">
-              <label class="c-contact-form__form-label screen-reader-text" for="form-name">Your Name</label>
-              <input class="c-contact-form__form-input" id="form-name" type="text" name="name" placeholder="Your name..." required>
+        <!-- Team Start -->
+        <div class="team" id="team">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Team</p>
+                    <h2>Expert Team Members</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Mollie Ross</h2>
+                                <h4>Web Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Dylan Adams</h2>
+                                <h4>Web Developer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Jennifer Page</h2>
+                                <h4>Apps Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Josh Dunn</h2>
+                                <h4>Apps Developer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="c-contact-form__form-group">
-              <label class="c-contact-form__form-label screen-reader-text" for="form-email">Your Email</label>
-              <input class="c-contact-form__form-input" id="form-email" type="email" name="_replyto" placeholder="Your email..."
-                required>
+        </div>
+        <!-- Team End -->
+        
+        
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="c-contact-form__form-group">
-              <label class="c-contact-form__form-label screen-reader-text" for="form-text">Your Message</label>
-              <textarea class="c-contact-form__form-input" id="form-text" name="text" rows="9" placeholder="Your message..."
-                required></textarea>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>From Blog</p>
+                    <h2>Latest Articles</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Web Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>5</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="c-contact-form__form-group c-contact-form__form-group--button">
-              <button class="c-button c-button--primary c-button--large" type="submit">Send now</button>
+        </div>
+        <!-- Blog End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Kate Winslet</h2>
+                        <h3>123 Street, New York, USA</h3>
+                        <div class="footer-menu">
+                            <p>+012 345 67890</p>
+                            <p>info@example.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
             </div>
-          </form>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
         </div>
 
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end contact -->
-          <!--bookshop-live end-->
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-
-</div>
-
-          <!--bookshop-live end-->
-
-    <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
-
-    <!-- begin footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-
-        <!--bookshop-live name(social-link.jekyll.html) params() context() -->
-          
-<div class="social">
-  <ul class="social__list list-reset">
-    
-    <li class="social__item">
-      <a class="social__link" href="https://linkedin.com/in/andreamiramontesserrano" target="_blank" rel="noopener" aria-label="linkedin icon"><i class="ion ion-logo-linkedin"></i></a>
-    </li>
-    
-  </ul>
-</div>
-
-          <!--bookshop-live end-->
-
-        <ul class="footer_nav list-reset">
-          
-          <li class="footer_nav__item">
-            <a href="/" class="footer_nav__link">Home</a>
-          </li>
-          
-          <li class="footer_nav__item">
-            <a href="/projects/" class="footer_nav__link">Projects</a>
-          </li>
-          
-          <li class="footer_nav__item">
-            <a href="/elements/" class="footer_nav__link">Elements</a>
-          </li>
-          
-          <li class="footer_nav__item">
-            <a href="/about/" class="footer_nav__link">About</a>
-          </li>
-          
-          <li class="footer_nav__item">
-            <a href="/blog/" class="footer_nav__link">Blog</a>
-          </li>
-          
-        </ul>
-
-        <div class="copyright"><p> 2021 &copy; <a href="/">Vonge</a> By <a href="https://cloudcannon.com/">CloudCannon</a>.</p></div>
-
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- end footer -->
-
-    <!--
-        load the live component for CloudCannon live previews.
-    -->
-    <script>
-(function(){
-  const bookshopLiveSetup = (CloudCannon) => {
-    CloudCannon.enableEvents();
-
-    const head = document.querySelector('head');
-    const script = document.createElement('script');
-    script.src = `/_cloudcannon/bookshop-live.js`;
-    script.onload = function() {
-      window.bookshopLive = new window.BookshopLive({
-        remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
-      });
-      const updateBookshopLive = async () => {
-        const frontMatter = await CloudCannon.value();
-        const options = window.bookshopLiveOptions || {};
-        await window.bookshopLive.update({page: frontMatter}, options);
-        CloudCannon?.refreshInterface?.();
-      }
-      document.addEventListener('cloudcannon:update', updateBookshopLive);
-      updateBookshopLive();
-    }
-    head.appendChild(script);
-  }
-
-  document.addEventListener('cloudcannon:load', function (e) {
-    bookshopLiveSetup(e.detail.CloudCannon);
-  });
-})();
-</script>
-
-    <script src="/js/scripts.js"></script>
-    <script src="/js/common.js"></script>
-</body>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
